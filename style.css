@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color-main: #058d7d;
+  --primary-color-darker: #0e5f55;
+  --primary-color-light: #13b09e;
+}
+/* HEADER*/
+header {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+ul.navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+ul.navigation li {
+  padding-block: 16px;
+  list-style: none;
+  margin-left: 16px;
+}
+ul.navigation li:hover {
+  color: var(--primary-color-main);
+  cursor: pointer;
+}
+/*MAIN*/
+main {
+  background-image: url(./assets/imageback.png);
+  background-size: cover;
+  height: calc(100vh - 51px);
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
+}
+main div.introduction {
+  margin-right: 72px;
+}
+/*SECTION PRESENTATION*/
+section.presentation {
+  padding-bottom: 16px;
+}
+section.presentation h1 {
+  font-size: 40px;
+  font-family: "Sono";
+}
+section.presentation p {
+  font-family: "Roboto";
+}
+/* SECTION ABOUT ME*/
+section.about-me {
+  padding-bottom: 16px;
+}
+section.about-me button {
+  font-family: "Roboto";
+  height: 40px;
+  width: 80px;
+  padding-inline: 4px;
+  border-radius: 8px;
+  border: 1px;
+  border-style: hidden;
+  background-color: var(--primary-color-main);
+  color: white;
+}
+section.about-me button:hover {
+  background-color: var(--primary-color-darker);
+  cursor: pointer;
+}
+/* SECTION social-MEDIA*/
+section.social-media img:hover {
+  cursor: pointer;
+}
+/* SECTION IMAGE */
+section.image img {
+  height: 320px;
+  width: 320px;
+}
