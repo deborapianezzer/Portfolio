@@ -6,12 +6,10 @@
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
-</p>
-
 <br>
 
 <p align="center">
+   <img alt="Portifólio" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Technologies
