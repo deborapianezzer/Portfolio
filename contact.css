@@ -1,0 +1,62 @@
+/* MAIN */
+
+main {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INPUT */
+
+input {
+  padding-block: 8px;
+  padding-inline: 4px;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--primary-color-main);
+}
+input:hover {
+  border: solid 3px var(--primary-color-darker);
+}
+
+/* DIV */
+
+div {
+  padding-block: 4px;
+}
+
+/* SECTION TITLE*/
+
+section h1 {
+  color: var(--primary-color-main);
+  font-size: 40px;
+  font-family: "Sono";
+  padding-bottom: 16px;
+}
+/* SECTION INFORMATION */
+
+section.information input {
+  height: 56px;
+}
+section div.information input {
+  width: 300px;
+}
+section div.subject input {
+  width: 603.97px;
+}
+section div.message input {
+  height: 88px;
+  width: 603.97px;
+}
+section div.sendmessage input {
+  width: 300px;
+  background-color: #2a2a2a;
+  color: white;
+}
+section div.sendmessage input:hover {
+  background-color: var(--primary-color-main);
+  cursor: pointer;
+}

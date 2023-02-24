@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;700&display=swap');
 * {
+  font-family: "Roboto";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+a:visited {
+  color: inherit;
+}
+a:link {
+  color: inherit;
+  text-decoration: none;
 }
 :root {
   --primary-color-main: #058d7d;
@@ -10,9 +20,9 @@
 }
 /* HEADER*/
 header {
+  background-color: #1d1d1d;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Roboto";
 }
 
 ul.navigation {
@@ -21,6 +31,7 @@ ul.navigation {
   justify-content: center;
 }
 ul.navigation li {
+  color: white;
   padding-block: 16px;
   list-style: none;
   margin-left: 16px;
@@ -31,8 +42,7 @@ ul.navigation li:hover {
 }
 /*MAIN*/
 main {
-  background-image: url(./assets/imageback.png);
-  background-size: cover;
+  background-color: #1d1d1d;
   height: calc(100vh - 51px);
   display: flex;
   align-items: center;
@@ -46,11 +56,12 @@ section.presentation {
   padding-bottom: 16px;
 }
 section.presentation h1 {
+  color: var(--primary-color-main);
   font-size: 40px;
   font-family: "Sono";
 }
 section.presentation p {
-  font-family: "Roboto";
+  color: white;
 }
 /* SECTION ABOUT ME*/
 section.about-me {
@@ -62,13 +73,13 @@ section.about-me button {
   width: 80px;
   padding-inline: 4px;
   border-radius: 8px;
-  border: 1px;
-  border-style: hidden;
-  background-color: var(--primary-color-main);
+  border: 1px solid;
+  border-color: var(--primary-color-light);
+  background-color: #2a2a2a;
   color: white;
 }
 section.about-me button:hover {
-  background-color: var(--primary-color-darker);
+  background-color: var(--primary-color-main);
   cursor: pointer;
 }
 /* SECTION social-MEDIA*/
@@ -76,7 +87,3 @@ section.social-media img:hover {
   cursor: pointer;
 }
 /* SECTION IMAGE */
-section.image img {
-  height: 320px;
-  width: 320px;
-}
