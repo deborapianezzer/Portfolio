@@ -55,7 +55,7 @@ main div.introduction {
 section.presentation {
   padding-bottom: 16px;
 }
-section.presentation h1 {
+section h1 {
   color: var(--primary-color-main);
   font-size: 40px;
   font-family: "Sono";
