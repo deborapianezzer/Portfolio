@@ -60,3 +60,8 @@ section div.sendmessage input:hover {
   background-color: var(--primary-color-main);
   cursor: pointer;
 }
+@media (max-width: 620px) {
+  section.information input {
+    width: 100px;
+  }
+}
